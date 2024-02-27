@@ -14,7 +14,7 @@ sudo yum clean all
 
 curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash -
 
-sudo yum install nodejs -y
+sudo yum install nodejs npm -y
 
 # Uncomment this line and edit the Version of NPM
 # you want to install instead of the default one.
